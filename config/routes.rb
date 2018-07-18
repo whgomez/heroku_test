@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
-  devise_for :users
-  get 'welcome/index'
+  #devise_for :users
+  root to: "pages#index"
+  #get 'pages/index'
 
   resources :pictures
   resources :conventions
