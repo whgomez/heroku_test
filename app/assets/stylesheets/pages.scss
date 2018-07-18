@@ -1,3 +1,310 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.header{
+    width: 100%;
+    height: auto; 
+    padding: 1%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.headerLogo{
+    width: 20%;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.headerMenu1{
+    padding: 20px;
+
+}
+
+.headerMenu2{
+    float: left;
+}
+
+.headerMenu2{
+    width: 80%;
+    float: left;
+}
+
+.contenedor4{
+    width: 40%;
+    text-align: left;
+    float: left; 
+    margin-left: 2%;
+}
+
+.menu{
+
+    font-family: 'Muli', sans-serif;
+    font-size: 1rem;
+    color: #43525A;
+    text-decoration: none; 
+    margin-left: 20px;  
+}
+
+.menu2{
+
+    font-family: 'Muli', sans-serif;
+    font-size: 1rem;
+    color: #43525A;
+    text-decoration: none; 
+}    
+
+.titulo1{
+    font-family: "Muli", sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    margin: 1 ;
+    line-height: 2px;
+    padding: 1px;
+    color: #43525A;
+}
+
+.titulo2{
+    font-family: "Muli", sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 3.85714rem;
+    color: #43525A;
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    
+        
+}
+
+
+
+
+.parrafo1{
+    font-family: "Muli", sans-serif;
+    font-weight: 200;
+    font-size: 1.28571rem;
+    line-height: 160%;
+    margin: 0 0 2.14286rem;
+    color: #43525A;
+        
+}
+
+.parrafo2{
+    font-family: "Muli", sans-serif;
+    font-weight: 30;
+    font-size: 0.9rem;
+    line-height: 160%;
+    margin: 0 0 2.14286rem;
+    color: #43525A;
+        
+}
+
+
+.contenedor5{
+   
+   width: 70%; 
+   float: left;
+   margin-left: 2%;
+}
+
+.contenedor6{
+   width: 50%; 
+   float: left;
+}
+
+.contenedor7{
+    
+   width: 50%; 
+    
+   margin-top: 150px;
+   margin-bottom: 100px;
+   text-align: left;
+   float: left;
+   
+ }
+
+.contenedor8{
+    width: 100%; 
+    height: 100px; 
+    text-align: left;
+    float: left;
+    margin-top: 150px;
+ }
+
+.contenedor9{
+    width: 50%; 
+    
+    
+ }
+
+.contenedor10{
+    font-family: 'Muli', sans-serif;
+    font-size: 1rem;
+    color: #43525A;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1320px;
+    padding: 0 1.42857rem;
+    margin: 0 auto;
+    
+   
+}
+
+
+.footer{
+    width: 100%;
+    background-color: #f2f2f2;
+    padding-top: 50px;
+    padding-bottom: 3.57143rem;
+    font-family: 'Muli', sans-serif;
+    font-size: 1rem;
+    box-sizing: border-box;
+   /* max-width: 1320px; */
+    margin: 0 auto;
+    
+}
+
+.logo_footer{
+    
+    height: 150px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin: 1.42857rem 3.57143rem 1.42857rem;
+    padding: 0.71429rem 3.57143rem 0.71429rem;
+    border-right: 1px solid #ddd;
+    float: left;
+   
+}
+
+.footer_menu{
+
+    margin: 1.42857rem 0;
+    padding: 0.71429rem 0;
+    display: flex;
+}
+
+.footer_menu_grupo{
+
+    list-style-type: none;
+    margin-right: 3.57143rem;
+}
+
+.footer_menu_item{
+    display: block;
+    margin-bottom: 1.42857rem;
+    font-size: 0.85714rem;
+}
+
+.footer_link{
+    display: block;
+    margin-bottom: 0.78571rem;
+    color: #43525A;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.copyright{
+    display: block;
+    text-align: center;
+    max-width: 55.71429rem;
+    width: 100%;
+    font-size: 0.75714rem;
+    color: #6f8794;
+    margin: 2.14286rem auto 0;
+    padding: 0 2.14286rem;
+}
+
+.footer_proud_member{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2.14286rem;
+}
+
+.text{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 0.71429rem;
+    font-size: 0.75714rem;
+    color: #6f8794;
+}
+
+.logo1{
+    margin: 0.71429rem;
+    height: 2.85714rem;
+    width: auto;
+}
+
+.separador{
+    display: block;
+    background: #ddd;
+    height: 0.85714rem;
+    width: 1px;
+}
+
+.section_info{
+    background-image: url(fondo1.jpg);
+    width: 100%;
+    height: 674px; 
+    background-position: center bottom ;
+    z-index: 1;
+    background-size: auto 110%;
+}
+
+
+.imagen_escritorio{
+
+    position: absolute;
+    width: 66%;
+    margin-left: 152px;
+}
+
+.section_info2{
+
+    width: 100%;
+    height: 700px;
+    max-width: 1400px;
+    margin-top: -56px;
+    z-index: 2;
+   
+    
+    
+}
+
+.margenes{
+
+    width: 600px;
+    margin-left: 58px;
+}
+
+.section_environment{
+
+    background-color: #BEEADF;
+    color: #43525A;
+    padding-top: 5.71429rem;
+    
+    
+}
+
+.responsabilidad{
+
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1320px;
+    padding: 0 1.42857rem;
+    margin: 0 auto;
+    
+}
+
+.contenido{
+    max-width: 71.42857rem;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Muli", sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+}
