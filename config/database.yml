@@ -18,8 +18,6 @@ default: &default
   database: jaboque
   adapter: postgresql
   encoding: unicode
-  user: postgres
-  
 
   # For details on connection pooling, see rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
@@ -29,7 +27,7 @@ development:
   <<: *default
   database: jaboque_development
   username: postgres
-  
+
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
   # When left blank, postgres will use the default role. This is
@@ -64,7 +62,6 @@ test:
   <<: *default
   database: jaboque_test
   username: postgres
-  
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -89,4 +86,3 @@ production:
   <<: *default
   database: jaboque_production
   username: postgres
-
