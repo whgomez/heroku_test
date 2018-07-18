@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Convention:</strong>
+  <%= @convention.convention %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @convention.description %>
+</p>
+
+<p>
+  <strong>Image:</strong>
+  <%= @convention.image %>
+</p>
+
+<%= link_to 'Edit', edit_convention_path(@convention) %> |
+<%= link_to 'Back', conventions_path %>

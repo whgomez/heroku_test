@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  mail: MyString
+  date: 2018-07-11
+  observation: MyString
+  coordinate: 1.5
+
+two:
+  mail: MyString
+  date: 2018-07-11
+  observation: MyString
+  coordinate: 1.5
